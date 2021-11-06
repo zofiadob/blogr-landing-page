@@ -1,0 +1,41 @@
+//@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+// Width
+$mobile: 375px;
+$desktop: 1440px;
+
+//Primary colors
+$CTA-text: hsl(356, 100%, 66%);
+$CTA-hover-background: hsl(355, 100%, 74%);
+$headings: hsl(208, 49%, 24%);
+
+//Neutral colors
+$text: hsl(0, 0%, 100%);
+$footer-text: hsl(240, 2%, 79%);
+$body-copy: hsl(207, 13%, 34%);
+$footer-background: hsl(240, 10%, 16%);
+
+//Gradient
+$gradient-light-red: hsl(13, 100%, 72%);
+$gradient-red: hsl(353, 100%, 62%);
+$gradient-body: hsl(237, 17%, 21%);
+$gradient-body-light: hsl(237, 23%, 32%);
+
+//Body Copy
+$body-font: 16px;
+
+//Fonts
+@font-face {
+    font-family: 'Overpass', sans-serif;
+    src: url('Overpass.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url('Ubuntu.woff2') format('woff2'),
+}
+
+$header-font: 'Overpass';
+$main-font: 'Ubuntu';
+
