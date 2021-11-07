@@ -15,3 +15,7 @@
 .DS_Store
 .prettierignore
 .vscode
+sass/main.css.map
+sass/main.min.css.map
+sass/main.min.css
+sass/main.css
