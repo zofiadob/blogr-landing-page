@@ -12,12 +12,14 @@ body {
 
 .gradient-background {
   background-image: linear-gradient(to bottom right, #ff8f70, #ff3d54);
+  border-radius: 0 0 0 100px;
 }
 .gradient-background .box-1 {
   background-image: url(/images/bg-pattern-intro.svg);
-  background-size: 1200px;
+  background-size: 350%;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 37% 34%;
+  border-radius: 0 0 0 100px;
 }
 .gradient-background .box-1 .main-header {
   padding-top: 40px;
@@ -30,7 +32,7 @@ body {
   font-family: Overpass;
   text-align: center;
   color: white;
-  padding: 100px 45px 40px 45px;
+  padding: 120px 45px 40px 45px;
 }
 .gradient-background .box-1 .box-2 .text-header {
   margin: 0;
@@ -39,4 +41,36 @@ body {
 .gradient-background .box-1 .box-2 .sub-text {
   font-weight: 400;
   font-size: 16px;
+}
+.gradient-background .box-1 .box-2 .buttons-box {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.gradient-background .box-1 .box-2 .buttons-box .buttons {
+  width: 40%;
+  border: 1px solid white;
+  padding: 12px 16px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-family: Ubuntu;
+  font-size: 16px;
+}
+.gradient-background .box-1 .box-2 .buttons-box .button-left {
+  background-color: white;
+  color: #ff525d;
+  margin-right: 10px;
+}
+.gradient-background .box-1 .box-2 .buttons-box .button-left:hover {
+  background-color: #ff7a85;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #ff7a85;
+  transition: background-color 0.7s, color 0.7s, border 0.7s;
+}
+.gradient-background .box-1 .box-2 .buttons-box .button-right:hover {
+  background-color: white;
+  color: #ff525d;
+  cursor: pointer;
+  border: 1px solid #ff7a85;
+  transition: background-color 0.7s, color 0.7s, border 0.7s;
 }

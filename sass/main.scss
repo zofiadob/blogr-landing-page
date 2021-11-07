@@ -14,13 +14,14 @@ body{
 .gradient-background{
 
     background-image: linear-gradient(to bottom right, map-get($map: vars.$Gradient, $key: "gradient-light-red"), map-get($map: vars.$Gradient, $key: "gradient-red"));
-
+    border-radius: 0 0 0 100px;
 
     .box-1{
         background-image: url(/images/bg-pattern-intro.svg);
-        background-size: 1200px;
+        background-size: 350%;
         background-repeat: no-repeat;
-        background-position: 50% 50%;
+        background-position: 37% 34%;
+        border-radius: 0 0 0 100px;
         
 
         .main-header{
@@ -37,7 +38,7 @@ body{
             font-family: map-get($map: vars.$fonts, $key: 'header-font' );
             text-align: center;
             color: map-get($map: vars.$Neutral-colors, $key: 'text' );
-            padding: 100px 45px 40px 45px;
+            padding: 120px 45px 40px 45px;
 
             .text-header{
                 margin: 0;
@@ -48,6 +49,48 @@ body{
                 font-weight: map-get($map: vars.$weighs, $key: 'regular');
                 font-size: 16px;
             }
+
+            .buttons-box{
+                margin-top: 50px;
+                margin-bottom: 100px;
+
+
+                .buttons{
+                    width: 40%;
+                    border: 1px solid map-get($map: vars.$Neutral-colors, $key: 'text' );
+                    padding: 12px 16px;
+                    border-radius: 30px;
+                    font-weight: map-get($map: vars.$weighs, $key: 'semi-bold');
+                    font-family: map-get($map: vars.$fonts, $key: 'main-font' );
+                    font-size: 16px;
+                }
+
+                .button-left{
+                    background-color: map-get($map: vars.$Neutral-colors, $key: 'text' );
+                    color: map-get($map: vars.$Primary-colors, $key: 'CTA-text' );
+                    margin-right: 10px;
+                }
+
+                .button-left:hover{
+                    background-color: map-get($map: vars.$Primary-colors, $key: 'CTA-hover-background' );
+                    color: map-get($map: vars.$Neutral-colors, $key: 'text' );
+                    cursor: pointer;
+                    border: 1px solid map-get($map: vars.$Primary-colors, $key: 'CTA-hover-background' );
+                    transition: background-color 0.7s, color 0.7s, border 0.7s;
+                }
+
+                .button-right:hover{
+                    background-color: map-get($map: vars.$Neutral-colors, $key: 'text' );
+                    color: map-get($map: vars.$Primary-colors, $key: 'CTA-text' );
+                    cursor: pointer;
+                    border: 1px solid map-get($map: vars.$Primary-colors, $key: 'CTA-hover-background' );
+                    transition: background-color 0.7s, color 0.7s, border 0.7s;
+                }
+            }
+
+
+
+
         }
     }
 
