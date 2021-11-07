@@ -1,9 +1,57 @@
 @use './variables' as vars;
 
-body{
-    font-size: vars.$Body-Copy;
+html{
+    box-sizing: border-box;
 }
 
-div{
-    color: red;
+body{
+    font-size: vars.$Body-Copy;
+    margin: 0;
+    padding: 0;
+    font-family: map-get($map: vars.$fonts, $key: 'main-font' );
 }
+
+.gradient-background{
+
+    background-image: linear-gradient(to bottom right, map-get($map: vars.$Gradient, $key: "gradient-light-red"), map-get($map: vars.$Gradient, $key: "gradient-red"));
+
+
+    .box-1{
+        background-image: url(/images/bg-pattern-intro.svg);
+        background-size: 1200px;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        
+
+        .main-header{
+            padding-top: 40px;
+        }
+    
+        .logo{
+            margin: 0 30px 0 30px;
+            width: 30%;
+        }
+
+
+        .box-2{
+            font-family: map-get($map: vars.$fonts, $key: 'header-font' );
+            text-align: center;
+            color: map-get($map: vars.$Neutral-colors, $key: 'text' );
+            padding: 100px 45px 40px 45px;
+
+            .text-header{
+                margin: 0;
+                margin-bottom: 15px;
+            }
+
+            .sub-text{
+                font-weight: map-get($map: vars.$weighs, $key: 'regular');
+                font-size: 16px;
+            }
+        }
+    }
+
+
+
+}
+

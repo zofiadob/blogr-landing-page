@@ -26,19 +26,11 @@ $Gradient: (
 $Body-Copy: 16px;
 
 //Fonts
-@font-face {
-    font-family: "Overpass", sans-serif;
-    src: url("Overpass.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "Ubuntu", sans-serif;
-    src: url("Ubuntu.woff2") format("woff2");
-}
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
 
 $fonts: (
-    "header-font": "Overpass",
-    "main-font": "Ubuntu",
+    "header-font": Overpass,
+    "main-font": Ubuntu,
 );
 
 $weighs: (
