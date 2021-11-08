@@ -37,6 +37,7 @@ body {
 .gradient-background .box-1 .box-2 .text-header {
   margin: 0;
   margin-bottom: 15px;
+  font-size: 32px;
 }
 .gradient-background .box-1 .box-2 .sub-text {
   font-weight: 400;
@@ -73,4 +74,15 @@ body {
   cursor: pointer;
   border: 1px solid #ff7a85;
   transition: background-color 0.7s, color 0.7s, border 0.7s;
+}
+
+.box-3 {
+  text-align: center;
+  margin: 0px;
+  color: #25252d;
+  font-family: Ubuntu;
+  font-weight: 400;
+}
+.box-3 .editor-img {
+  max-width: 100%;
 }

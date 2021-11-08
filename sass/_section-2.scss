@@ -1,0 +1,7 @@
+@use './variables' as vars;
+
+@mixin section-2 {
+    color: map-get($map: vars.$Neutral-colors, $key: "footer-background" );
+    font-family: map-get($map: vars.$fonts, $key: "main-font" );
+    
+}

@@ -1,4 +1,5 @@
 @use './variables' as vars;
+@use './section-2' as sec-2;
 
 html{
     box-sizing: border-box;
@@ -43,6 +44,7 @@ body{
             .text-header{
                 margin: 0;
                 margin-bottom: 15px;
+                font-size: 32px;
             }
 
             .sub-text{
@@ -96,5 +98,15 @@ body{
 
 
 
+}
+
+.box-3{
+    text-align: center;
+    margin: 0px;
+    @include sec-2.section-2;
+
+    .editor-img{
+        max-width: 100%;
+    }
 }
 
