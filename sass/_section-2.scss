@@ -5,3 +5,11 @@
     font-family: map-get($map: vars.$fonts, $key: "main-font" );
     
 }
+
+@mixin section-text {
+    font-family: map-get($map: vars.$fonts, $key: 'header-font' );
+    font-weight: map-get($map: vars.$weighs, $key: "light");
+    font-size: 15px;
+    line-height: 25px;
+    color: map-get($map: vars.$Neutral-colors, $key: "body-copy");
+}
