@@ -19,7 +19,7 @@ body {
   background-size: 350%;
   background-repeat: no-repeat;
   background-position: 37% 34%;
-  border-radius: 0 0 0 100px;
+  border-radius: 0 0 0 90px;
 }
 .gradient-background .box-1 .main-header {
   padding-top: 40px;
@@ -92,18 +92,63 @@ body {
   margin-bottom: 40px;
   font-weight: 400;
 }
-.box-3 .box-3-section-2 {
+
+.box-3-section-2 {
   margin: 48px;
 }
-.box-3 .box-3-section-2 .box3-header {
+.box-3-section-2 .box3-header {
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 25px;
 }
-.box-3 .box-3-section-2 .box3-text {
+.box-3-section-2 .box3-text {
   font-family: Overpass;
   font-weight: 300;
   font-size: 15px;
   line-height: 25px;
   color: #4b5862;
+}
+
+.relative-box {
+  min-height: 200px;
+  margin-top: 50px;
+}
+
+.box-4 {
+  position: relative;
+}
+.box-4 .dark-box-round {
+  background-image: linear-gradient(to bottom right, #2c2d3f, #3f4164);
+}
+.box-4 .telephone-img {
+  width: 100%;
+  position: absolute;
+  top: 5%;
+}
+.box-4 .dark-box-round {
+  border-radius: 0 90px 0 90px;
+  min-height: 600px;
+}
+.box-4 .circle-img {
+  background-image: url("../images/bg-pattern-circles.svg");
+  background-size: 160%;
+  background-position: 50% -260%;
+  width: 100%;
+  background-repeat: no-repeat;
+  border-radius: 0 90px 0 90px;
+  min-height: 600px;
+}
+.box-4 .box-3-section-2 {
+  margin: 45px;
+}
+.box-4 .box3-text, .box-4 .box3-header {
+  text-align: center;
+  color: #c8c8cb;
+}
+.box-4 .box3-header {
+  font-family: Overpass;
+  font-size: 32px;
+  padding-top: 100%;
+  color: white;
+  padding-top: 75%;
 }

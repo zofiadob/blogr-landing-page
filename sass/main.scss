@@ -22,7 +22,7 @@ body{
         background-size: 350%;
         background-repeat: no-repeat;
         background-position: 37% 34%;
-        border-radius: 0 0 0 100px;
+        border-radius: 0 0 0 90px;
         
 
         .main-header{
@@ -118,18 +118,71 @@ body{
         font-weight: map-get($map: vars.$weighs, $key: "regular");
     }
 
-    .box-3-section-2{
-        margin: 48px;
+}
 
-        .box3-header{
-            margin-left: 30px;
-            margin-right: 30px;
-            margin-bottom: 25px;
-        }
-        
-        .box3-text{
-            @include sec-2.section-text;
-        }
+.box-3-section-2{
+    margin: 48px;
+
+    .box3-header{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 25px;
+    }
+    
+    .box3-text{
+        @include sec-2.section-text;
     }
 }
+
+.relative-box{
+    min-height: 200px;
+    margin-top: 50px;
+}
+
+.box-4{
+    position: relative;
+    .dark-box-round{
+        background-image: linear-gradient(to bottom right, map-get($map: vars.$Gradient, $key: "gradient-body"), map-get($map: vars.$Gradient, $key: "gradient-body-light"));
+    }
+
+    .telephone-img{
+        width: 100%;
+        position: absolute;
+        top: 5%;
+        }
+
+    .dark-box-round{
+        border-radius: 0 90px 0 90px;
+        min-height: 600px;
+    }
+
+    .circle-img{
+        background-image: url("../images/bg-pattern-circles.svg");
+        background-size: 160%;
+        background-position: 50% -260%;
+        width: 100%;
+        background-repeat: no-repeat;
+        border-radius: 0 90px 0 90px;
+        min-height: 600px;
+    }
+
+    .box-3-section-2{
+        margin: 45px;
+    }
+
+
+    .box3-text, .box3-header{
+        text-align: center;
+        color: map-get($map: vars.$Neutral-colors, $key: "footer-text" );
+    }
+
+    .box3-header{
+        font-family: map-get($map: vars.$fonts, $key: 'header-font' );
+        font-size: 32px;
+        padding-top: 100%;
+        color: map-get($map: vars.$Neutral-colors, $key: "text" );
+        padding-top: 75%;
+    }
+}
+
 
