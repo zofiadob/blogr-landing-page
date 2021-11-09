@@ -127,16 +127,16 @@ body {
 }
 .box-4 .dark-box-round {
   border-radius: 0 90px 0 90px;
-  min-height: 600px;
+  min-height: 560px;
 }
 .box-4 .circle-img {
   background-image: url("../images/bg-pattern-circles.svg");
   background-size: 160%;
-  background-position: 50% -260%;
+  background-position: 50% -270px;
   width: 100%;
   background-repeat: no-repeat;
   border-radius: 0 90px 0 90px;
-  min-height: 600px;
+  min-height: 560px;
 }
 .box-4 .box-3-section-2 {
   margin: 45px;
@@ -148,7 +148,6 @@ body {
 .box-4 .box3-header {
   font-family: Overpass;
   font-size: 32px;
-  padding-top: 100%;
   color: white;
-  padding-top: 75%;
+  padding-top: 70%;
 }
