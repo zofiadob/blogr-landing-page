@@ -39,7 +39,7 @@ body{
             font-family: map-get($map: vars.$fonts, $key: 'header-font' );
             text-align: center;
             color: map-get($map: vars.$Neutral-colors, $key: 'text' );
-            padding: 120px 45px 40px 45px;
+            padding: 120px 40px 40px 40px;
 
             .text-header{
                 margin: 0;
@@ -49,6 +49,7 @@ body{
 
             .sub-text{
                 font-weight: map-get($map: vars.$weighs, $key: 'regular');
+                padding: 0 10px;
                 font-size: 16px;
             }
 
@@ -124,8 +125,8 @@ body{
     margin: 48px;
 
     .box3-header{
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-left: 25px;
+        margin-right: 25px;
         margin-bottom: 25px;
     }
     
@@ -172,7 +173,7 @@ body{
     }
 
     .box-3-section-2{
-        margin: 45px;
+        margin-top: 20px;
     }
 
 
@@ -189,9 +190,14 @@ body{
     }
 }
 
+#box-4-ilust{
+    margin-top: 0px;
+}
 
 .laptop-img{
-    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 50px;
 }
 
 

@@ -32,7 +32,7 @@ body {
   font-family: Overpass;
   text-align: center;
   color: white;
-  padding: 120px 45px 40px 45px;
+  padding: 120px 40px 40px 40px;
 }
 .gradient-background .box-1 .box-2 .text-header {
   margin: 0;
@@ -41,6 +41,7 @@ body {
 }
 .gradient-background .box-1 .box-2 .sub-text {
   font-weight: 400;
+  padding: 0 10px;
   font-size: 16px;
 }
 .gradient-background .box-1 .box-2 .buttons-box {
@@ -97,8 +98,8 @@ body {
   margin: 48px;
 }
 .box-3-section-2 .box3-header {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
   margin-bottom: 25px;
 }
 .box-3-section-2 .box3-text {
@@ -139,7 +140,7 @@ body {
   min-height: 560px;
 }
 .box-4 .box-3-section-2 {
-  margin: 45px;
+  margin-top: 20px;
 }
 .box-4 .box3-text, .box-4 .box3-header {
   text-align: center;
@@ -152,6 +153,12 @@ body {
   padding-top: 70%;
 }
 
+#box-4-ilust {
+  margin-top: 0px;
+}
+
 .laptop-img {
-  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 50px;
 }
