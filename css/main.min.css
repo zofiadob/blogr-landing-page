@@ -12,7 +12,7 @@ body {
 
 .gradient-background {
   background-image: linear-gradient(to bottom right, #ff8f70, #ff3d54);
-  border-radius: 0 0 0 100px;
+  border-radius: 0 0 0 90px;
 }
 .gradient-background .box-1 {
   background-image: url(/images/bg-pattern-intro.svg);
@@ -161,4 +161,33 @@ body {
   max-width: 100%;
   text-align: center;
   margin-top: 50px;
+}
+
+.footer-background {
+  background-color: #25252d;
+  border-radius: 0 90px 0 0;
+  text-align: center;
+  padding-bottom: 60px;
+  color: white;
+  font-size: 14px;
+}
+.footer-background .footer-section {
+  margin-top: 50px;
+}
+.footer-background .footer-section h2 {
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.footer-background .footer-section h3 {
+  font-weight: 400;
+  color: #c8c8cb;
+  margin: 10px;
+  cursor: pointer;
+}
+.footer-background img {
+  margin: 50px;
+}
+
+.attribution {
+  display: none;
 }
