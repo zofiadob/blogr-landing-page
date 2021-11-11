@@ -30,9 +30,21 @@ body{
         }
     
         .logo{
-            margin: 0 30px 0 30px;
-            width: 30%;
+            margin-right: 30px;
+            margin-left: 30px;
+            display: flex;
+
+            .upper-logo{
+               width: 50%;
+            }
+
+            .hamburger-icon{
+                width: 50%;
+                text-align: right;
+                margin: auto;
+            }
         }
+
 
 
         .box-2{
