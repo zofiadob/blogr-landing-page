@@ -17,7 +17,9 @@ body {
 }
 .gradient-background .menu-box {
   margin: auto;
-  position: relative;
+  position: absolute;
+  width: 100%;
+  top: 100px;
 }
 .gradient-background .menu-box .menu-small-box {
   background-color: white;
@@ -25,6 +27,15 @@ body {
   margin-right: 30px;
   text-align: center;
   border-radius: 5px;
+  padding: 20px;
+}
+.gradient-background .menu-box .button-sign-up {
+  background-image: linear-gradient(to right, #ff8f70, #ff3d54);
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 75px;
+  margin-left: 75px;
+  color: white;
 }
 .gradient-background .box-1 {
   background-image: url(/images/bg-pattern-intro.svg);

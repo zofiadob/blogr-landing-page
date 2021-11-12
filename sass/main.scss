@@ -20,7 +20,9 @@ body{
 
     .menu-box{
         margin: auto;
-        position: relative;
+        position: absolute;
+        width: 100%;
+        top: 100px;
 
         .menu-small-box{
             background-color: white;
@@ -28,6 +30,17 @@ body{
             margin-right: 30px;
             text-align: center;
             border-radius: 5px;
+            padding: 20px;
+        }
+
+
+        .button-sign-up{
+            background-image: linear-gradient(to right, map-get($map: vars.$Gradient, $key: "gradient-light-red"), map-get($map: vars.$Gradient, $key: "gradient-red"));
+            border-radius: 20px;
+            padding: 10px;
+            margin-right: 75px;
+            margin-left: 75px;
+            color: map-get($map: vars.$Neutral-colors, $key: "text" )
         }
     }
 
