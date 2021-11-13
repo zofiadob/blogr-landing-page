@@ -42,14 +42,15 @@ body {
   margin-left: 5px;
 }
 .gradient-background .menu-box .subcathergory-box {
-  background-color: #c8c8cb;
+  background-color: rgba(200, 200, 203, 0.35);
   margin-top: 15px;
   border-radius: 5px;
   font-size: 16px;
   padding: 10px 0;
+  display: none;
 }
 .gradient-background .menu-box .subcathergory-box .subcathegory {
-  margin: 15px;
+  margin: 20px;
   opacity: 70%;
 }
 .gradient-background .menu-box .separator-line {
