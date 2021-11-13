@@ -28,6 +28,7 @@ body{
         font-weight: map-get($map: vars.$weighs, $key: "semi-bold");
         color: map-get($map: vars.$Primary-colors, $key: "headings" );
         font-size: 18px;
+        display: none;
 
 
         .menu-small-box{
@@ -66,11 +67,15 @@ body{
 
         .separator-line{
             border: 1px solid map-get($map: vars.$Neutral-colors, $key: "footer-text");
-            margin-top: 15px;
-            margin-bottom: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
             opacity: 50%;
         }
 
+        .login{
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
 
         .button-sign-up{
             background-image: linear-gradient(to right, map-get($map: vars.$Gradient, $key: "gradient-light-red"), map-get($map: vars.$Gradient, $key: "gradient-red"));

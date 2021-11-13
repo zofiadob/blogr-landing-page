@@ -25,6 +25,7 @@ body {
   font-weight: 600;
   color: #1f3f5b;
   font-size: 18px;
+  display: none;
 }
 .gradient-background .menu-box .menu-small-box {
   background-color: white;
@@ -55,9 +56,13 @@ body {
 }
 .gradient-background .menu-box .separator-line {
   border: 1px solid #c8c8cb;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   opacity: 50%;
+}
+.gradient-background .menu-box .login {
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 .gradient-background .menu-box .button-sign-up {
   background-image: linear-gradient(to right, #ff8f70, #ff3d54);
