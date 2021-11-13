@@ -19,7 +19,12 @@ body {
   margin: auto;
   position: absolute;
   width: 100%;
-  top: 100px;
+  min-height: 300px;
+  top: 120px;
+  font-family: Overpass;
+  font-weight: 600;
+  color: #1f3f5b;
+  font-size: 18px;
 }
 .gradient-background .menu-box .menu-small-box {
   background-color: white;
@@ -27,15 +32,43 @@ body {
   margin-right: 30px;
   text-align: center;
   border-radius: 5px;
-  padding: 20px;
+  padding: 18px;
+}
+.gradient-background .menu-box .menu-cathegory {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.gradient-background .menu-box .menu-cathegory img {
+  margin-left: 5px;
+}
+.gradient-background .menu-box .subcathergory-box {
+  background-color: #c8c8cb;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 0;
+}
+.gradient-background .menu-box .subcathergory-box .subcathegory {
+  margin: 15px;
+  opacity: 70%;
+}
+.gradient-background .menu-box .separator-line {
+  border: 1px solid #c8c8cb;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  opacity: 50%;
 }
 .gradient-background .menu-box .button-sign-up {
   background-image: linear-gradient(to right, #ff8f70, #ff3d54);
-  border-radius: 20px;
-  padding: 10px;
-  margin-right: 75px;
-  margin-left: 75px;
+  border-radius: 30px;
+  padding: 15px 10px;
+  margin-right: 70px;
+  margin-left: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Ubuntu;
   color: white;
+  font-size: 16px;
 }
 .gradient-background .box-1 {
   background-image: url(/images/bg-pattern-intro.svg);
