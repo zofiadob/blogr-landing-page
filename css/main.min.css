@@ -15,6 +15,9 @@ body {
   background-image: linear-gradient(to bottom right, #ff8f70, #ff3d54);
   border-radius: 0 0 0 90px;
 }
+.gradient-background #menu-box {
+  display: none;
+}
 .gradient-background .menu-box {
   margin: auto;
   position: absolute;
@@ -25,7 +28,6 @@ body {
   font-weight: 600;
   color: #1f3f5b;
   font-size: 18px;
-  display: none;
 }
 .gradient-background .menu-box .menu-small-box {
   background-color: white;
@@ -85,6 +87,9 @@ body {
 }
 .gradient-background .box-1 .main-header {
   padding-top: 40px;
+}
+.gradient-background .box-1 .main-header #icon-ham {
+  cursor: pointer;
 }
 .gradient-background .box-1 .logo {
   margin-right: 30px;

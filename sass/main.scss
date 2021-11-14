@@ -17,6 +17,10 @@ body{
 
     background-image: linear-gradient(to bottom right, map-get($map: vars.$Gradient, $key: "gradient-light-red"), map-get($map: vars.$Gradient, $key: "gradient-red"));
     border-radius: 0 0 0 90px;
+    
+    #menu-box{
+        display: none;
+    }
 
     .menu-box{
         margin: auto;
@@ -28,7 +32,6 @@ body{
         font-weight: map-get($map: vars.$weighs, $key: "semi-bold");
         color: map-get($map: vars.$Primary-colors, $key: "headings" );
         font-size: 18px;
-        display: none;
 
 
         .menu-small-box{
@@ -104,6 +107,10 @@ body{
 
         .main-header{
             padding-top: 40px;
+            
+            #icon-ham{
+                cursor: pointer;
+            }
         }
     
         .logo{
