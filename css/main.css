@@ -37,6 +37,7 @@ body {
   text-align: center;
   border-radius: 5px;
   padding: 18px;
+  box-shadow: 0 0 1em #6e6e6e;
 }
 .gradient-background .menu-box .menu-cathegory {
   margin-top: 25px;
