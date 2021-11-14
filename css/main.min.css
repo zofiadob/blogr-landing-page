@@ -46,9 +46,6 @@ body {
 .gradient-background .menu-box .menu-cathegory img {
   margin-left: 5px;
 }
-.gradient-background .menu-box #subcathergory-box {
-  display: none;
-}
 .gradient-background .menu-box .subcathergory-box {
   background-color: rgba(200, 200, 203, 0.35);
   margin-top: 15px;
@@ -60,6 +57,9 @@ body {
 .gradient-background .menu-box .subcathergory-box .subcathegory {
   margin: 20px;
   opacity: 70%;
+}
+.gradient-background .menu-box #subcathergory-box-1, .gradient-background .menu-box #subcathergory-box-2, .gradient-background .menu-box #subcathergory-box-3 {
+  display: none;
 }
 .gradient-background .menu-box .separator-line {
   border: 1px solid #c8c8cb;

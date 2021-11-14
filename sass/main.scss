@@ -54,11 +54,7 @@ body{
             }
         }
 
-        #subcathergory-box{
-            display: none;
-        }
-
-        .subcathergory-box,{
+        .subcathergory-box{
             background-color: map-get($map: vars.$Neutral-colors, $key: "footer-text-trans" );
             color: map-get($map: vars.$Primary-colors, $key: "heading" );
             margin-top: 15px;
@@ -72,6 +68,10 @@ body{
                 opacity: 70%;
             }
             
+        }
+
+        #subcathergory-box-1, #subcathergory-box-2, #subcathergory-box-3{
+            display: none;
         }
 
         .separator-line{
