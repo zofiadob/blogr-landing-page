@@ -11,3 +11,9 @@ function menuOpenClose(){
             menuBox.style.display = 'none'
         }
     }
+
+
+function subMenuOpenClose(){
+    const subMenuState = document.getElementById('subcathergory-box');
+    subMenuState.style.display = 'none' ? subMenuState.style.display = 'block' : subMenuState.style.display = 'none';
+}

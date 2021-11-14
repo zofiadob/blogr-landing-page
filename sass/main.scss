@@ -20,6 +20,7 @@ body{
     
     #menu-box{
         display: none;
+        transition: 2s;
     }
 
     .menu-box{
@@ -46,20 +47,25 @@ body{
         .menu-cathegory{
             margin-top: 25px;
             margin-bottom: 20px;
+            cursor: pointer;
 
             img{
                 margin-left: 5px;
             }
         }
 
-        .subcathergory-box{
+        #subcathergory-box{
+            display: none;
+        }
+
+        .subcathergory-box,{
             background-color: map-get($map: vars.$Neutral-colors, $key: "footer-text-trans" );
             color: map-get($map: vars.$Primary-colors, $key: "heading" );
             margin-top: 15px;
             border-radius: 5px;
             font-size: 16px;
             padding: 10px 0;
-            display: none;
+            cursor: pointer;
 
             .subcathegory{
                 margin: 20px;
@@ -77,6 +83,7 @@ body{
 
         .login{
             margin-top: 30px;
+            cursor: pointer;
             margin-bottom: 20px;
         }
 
@@ -91,6 +98,7 @@ body{
             font-family: map-get($map: vars.$fonts, $key: 'main-font' );
             color: map-get($map: vars.$Neutral-colors, $key: "text" );
             font-size: 16px;
+            cursor: pointer;
         }
     }
 
