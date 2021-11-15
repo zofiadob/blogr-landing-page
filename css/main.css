@@ -335,6 +335,63 @@ body {
     margin-left: 0;
   }
 
+  .box-4 .relative-box {
+    min-height: 100px;
+    margin-top: 0;
+  }
+  .box-4 .telephone-img {
+    width: auto;
+    top: 11%;
+    left: 9%;
+  }
+  .box-4 .dark-box-round {
+    min-height: 400px;
+    max-height: 400px;
+  }
+  .box-4 .dark-box-round .circle-img {
+    background-size: 1200px;
+    max-height: 400px;
+    min-height: 400px;
+    background-position: -100% 82%;
+  }
+  .box-4 .dark-box-round .circle-img .box-3-section-2 {
+    width: 50%;
+    margin-left: 45%;
+  }
+  .box-4 .dark-box-round .circle-img .box-3-section-2 .box3-header, .box-4 .dark-box-round .circle-img .box-3-section-2 .box3-text {
+    text-align: left;
+    margin-left: 0;
+    padding: 0 70px;
+    padding-right: 130px;
+    font-size: 16px;
+  }
+  .box-4 .dark-box-round .circle-img .box-3-section-2 .box3-header {
+    font-size: 36px;
+    padding-top: 18%;
+  }
+  .box-4 .dark-box-round .box-3-section-2 .box3-header {
+    padding: 0;
+  }
+
+  footer {
+    display: grid;
+  }
+  footer .footer-background {
+    display: flex;
+  }
+  footer .footer-background img {
+    height: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  footer .footer-background .footer-section {
+    width: 20%;
+    text-align: left;
+  }
+  footer .footer-background .footer-section h3 {
+    margin-left: 0;
+  }
+
   #mobile {
     display: none;
   }
