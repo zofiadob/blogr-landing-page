@@ -161,6 +161,10 @@ body {
   transition: background-color 0.7s, color 0.7s, border 0.7s;
 }
 
+#desktop {
+  display: none;
+}
+
 .box-3 {
   text-align: center;
   margin: 0px;
@@ -175,7 +179,9 @@ body {
 }
 .box-3 .box3-header {
   margin-bottom: 40px;
-  font-weight: 400;
+  font-weight: 600;
+  font-family: Overpass;
+  color: #1f3f5b;
 }
 
 .box-3-section-2 {
@@ -296,5 +302,47 @@ body {
   }
   .gradient-background .box-1 .box-2 .sub-text {
     font-size: 20px;
+  }
+
+  .box3-header-extra {
+    text-align: center;
+    font-weight: 600;
+    font-family: Overpass;
+    color: #1f3f5b;
+    font-size: 30px;
+    padding-top: 100px;
+  }
+
+  .box-3 {
+    display: flex;
+  }
+  .box-3 .box-3-section {
+    width: 55%;
+    margin: 0;
+  }
+  .box-3 .box-3-section .box3-header {
+    font-size: 35px;
+    margin-left: 0;
+  }
+  .box-3 .section-container-desktop {
+    width: 45%;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+  }
+  .box-3 .section-container-desktop .box3-header {
+    margin-left: 0;
+  }
+
+  #mobile {
+    display: none;
+  }
+
+  #desktop {
+    display: inline;
+  }
+  #desktop img {
+    width: 100%;
   }
 }

@@ -31,4 +31,56 @@
 
     }
 
+
+    .box3-header-extra{
+        text-align: center;
+        font-weight: map-get($map: vars.$weighs, $key: "semi-bold");
+        font-family: map-get($map: vars.$fonts, $key: 'header-font' );
+        color: map-get($map: vars.$Primary-colors, $key: 'headings' );
+        font-size: 30px;
+        padding-top: 100px;
+
+    }
+
+    .box-3{
+        display: flex;
+
+        .box-3-section{
+            width:  55%;
+            margin: 0;
+
+            .box3-header{
+                font-size: 35px;
+                margin-left: 0;
+            }
+            
+        }
+
+        .section-container-desktop{
+            width: 45%;
+            text-align: left;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 40px;
+
+
+            .box3-header{
+                margin-left: 0;
+            }
+        }
+    }
+
+
+    #mobile{
+        display: none;
+    }
+    
+    #desktop{
+        display: inline;
+        
+        img{
+            width: 100%;
+        }
+    }
 }
+

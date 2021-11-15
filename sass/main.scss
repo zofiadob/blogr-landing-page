@@ -207,6 +207,11 @@ body{
 
 }
 
+#desktop{
+    display: none;
+}
+
+
 .box-3{
     text-align: center;
     margin: 0px;
@@ -222,7 +227,9 @@ body{
 
     .box3-header{
         margin-bottom: 40px;
-        font-weight: map-get($map: vars.$weighs, $key: "regular");
+        font-weight: map-get($map: vars.$weighs, $key: "semi-bold");
+        font-family: map-get($map: vars.$fonts, $key: 'header-font' );
+        color: map-get($map: vars.$Primary-colors, $key: 'headings' );
     }
 
 }
