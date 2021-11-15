@@ -275,3 +275,26 @@ body {
 .attribution {
   display: none;
 }
+
+@media screen and (min-width: 1000px) {
+  .gradient-background {
+    background-image: linear-gradient(to right, #ff8f70, #ff3d54);
+  }
+  .gradient-background .box-1 {
+    background-size: 210%;
+    background-position: 23% 52%;
+  }
+  .gradient-background .box-1 .logo {
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+  .gradient-background .box-1 .logo #icon-ham {
+    display: none;
+  }
+  .gradient-background .box-1 .box-2 .text-header {
+    font-size: 60px;
+  }
+  .gradient-background .box-1 .box-2 .sub-text {
+    font-size: 20px;
+  }
+}
