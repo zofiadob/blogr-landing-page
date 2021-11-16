@@ -149,6 +149,7 @@
             
         }
     }
+    
 
     #mobile{
         display: none;
@@ -162,5 +163,28 @@
             
         }
     }
+
+#second{
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+    img{
+        width: 50%;
+        margin: 0;
+        position: relative;
+    }
+
+    .duo-section{
+        text-align: left;
+        padding-right: 14%;
+        margin: auto;
+        width: 50%;
+        
+        .box3-header{
+            margin-left: 0;
+        }
+    }
+}
+
 }
 

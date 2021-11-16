@@ -402,4 +402,23 @@ body {
   #desktop img {
     width: 100%;
   }
+
+  #second {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  #second img {
+    width: 50%;
+    margin: 0;
+    position: relative;
+  }
+  #second .duo-section {
+    text-align: left;
+    padding-right: 14%;
+    margin: auto;
+    width: 50%;
+  }
+  #second .duo-section .box3-header {
+    margin-left: 0;
+  }
 }

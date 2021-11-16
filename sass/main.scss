@@ -1,6 +1,7 @@
 @use './variables' as vars;
 @use './section-2' as sec-2;
 @use './desktop-view' as desktop;
+@use './desktop-menu' as deskMenu;
 
 
 html{
@@ -351,5 +352,6 @@ body{
 // ----------desktop view------------
 @media screen and (min-width: 1000px) {
     @include desktop.desktopView();
+    @include deskMenu.desktop-menu();
 }
     
