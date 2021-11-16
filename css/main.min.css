@@ -443,24 +443,34 @@ body {
     display: none;
   }
   .gradient-background #menu-box .menu-small-box .menu-cathegory {
-    width: 130px;
+    min-width: 130px;
+  }
+  .gradient-background #menu-box .menu-small-box .menu-cathegory .subcathergory-box .subcathergory {
+    opacity: 100%;
   }
   .gradient-background #menu-box .menu-small-box .login-sign-space {
     width: 40%;
     display: flex;
+    margin-left: 30%;
   }
   .gradient-background #menu-box .menu-small-box .login-sign-space .login {
     width: 40%;
+    margin-top: 25px;
   }
   .gradient-background #menu-box .menu-small-box .login-sign-space .button-sign-up {
     width: 40%;
-    max-height: 44px;
-    margin: 20px;
-    padding: 0;
+    max-height: 15px;
     background-image: none;
     background-color: white;
     color: #ff525d;
-    text-align: auto;
+    margin: 0;
+    margin-top: 10px;
+    padding: 1rem;
+  }
+  .gradient-background #menu-box .menu-small-box .login-sign-space .button-sign-up:hover {
+    color: white;
+    background-color: #ff7a85;
+    transition: background-color 0.7s, color 0.7s;
   }
   .gradient-background .box-1 .main-header .logo {
     width: 30;
