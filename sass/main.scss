@@ -56,6 +56,13 @@ body{
             img{
                 margin-left: 5px;
             }
+
+            #light1, #light2, #light3{
+                display: none;
+            }
+            #dark1, #dark2, #dark3{
+                display: inline;
+            }
         }
 
         .subcathergory-box{

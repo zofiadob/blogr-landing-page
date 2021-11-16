@@ -10,6 +10,7 @@
         position: absolute;
         top: 0%;
         right: 10%;
+        display: block;
 
         .menu-small-box{
             display: inline;
@@ -19,6 +20,7 @@
             width: 100%;
             display: flex;
             padding-top: 25px;
+            max-height: 70px;
 
 
             .separator-line{
@@ -28,11 +30,30 @@
             .menu-cathegory{
                 min-width: 130px;
 
+                #light1, #light2, #light3{
+                    display: inline;
+                }
+                #dark1, #dark2, #dark3{
+                    display: none;
+                }
+
                 .subcathergory-box{
-                    .subcathergory{
-                        opacity: 100%;
+                    background-color: map-get($map: vars.$Neutral-colors, $key: "text" );
+                    color: map-get($map: vars.$Neutral-colors, $key: "footer-background");
+                    text-align: left;
+
+                    .subcathegory{    
+                        font-weight: map-get($map: vars.$weighs, $key: "regular");
+                    }
+
+                    .subcathegory:hover{
+                        font-weight: map-get($map: vars.$weighs, $key: "bold");
                     }
                 }
+            }
+
+            .menu-cathegory:hover{
+                text-decoration: underline;
             }
 
             .login-sign-space{

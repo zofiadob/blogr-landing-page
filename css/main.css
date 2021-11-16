@@ -47,6 +47,12 @@ body {
 .gradient-background .menu-box .menu-cathegory img {
   margin-left: 5px;
 }
+.gradient-background .menu-box .menu-cathegory #light1, .gradient-background .menu-box .menu-cathegory #light2, .gradient-background .menu-box .menu-cathegory #light3 {
+  display: none;
+}
+.gradient-background .menu-box .menu-cathegory #dark1, .gradient-background .menu-box .menu-cathegory #dark2, .gradient-background .menu-box .menu-cathegory #dark3 {
+  display: inline;
+}
 .gradient-background .menu-box .subcathergory-box {
   background-color: rgba(200, 200, 203, 0.35);
   margin-top: 15px;
@@ -429,6 +435,7 @@ body {
     position: absolute;
     top: 0%;
     right: 10%;
+    display: block;
   }
   .gradient-background #menu-box .menu-small-box {
     display: inline;
@@ -438,6 +445,7 @@ body {
     width: 100%;
     display: flex;
     padding-top: 25px;
+    max-height: 70px;
   }
   .gradient-background #menu-box .menu-small-box .separator-line {
     display: none;
@@ -445,8 +453,25 @@ body {
   .gradient-background #menu-box .menu-small-box .menu-cathegory {
     min-width: 130px;
   }
-  .gradient-background #menu-box .menu-small-box .menu-cathegory .subcathergory-box .subcathergory {
-    opacity: 100%;
+  .gradient-background #menu-box .menu-small-box .menu-cathegory #light1, .gradient-background #menu-box .menu-small-box .menu-cathegory #light2, .gradient-background #menu-box .menu-small-box .menu-cathegory #light3 {
+    display: inline;
+  }
+  .gradient-background #menu-box .menu-small-box .menu-cathegory #dark1, .gradient-background #menu-box .menu-small-box .menu-cathegory #dark2, .gradient-background #menu-box .menu-small-box .menu-cathegory #dark3 {
+    display: none;
+  }
+  .gradient-background #menu-box .menu-small-box .menu-cathegory .subcathergory-box {
+    background-color: white;
+    color: #25252d;
+    text-align: left;
+  }
+  .gradient-background #menu-box .menu-small-box .menu-cathegory .subcathergory-box .subcathegory {
+    font-weight: 400;
+  }
+  .gradient-background #menu-box .menu-small-box .menu-cathegory .subcathergory-box .subcathegory:hover {
+    font-weight: 700;
+  }
+  .gradient-background #menu-box .menu-small-box .menu-cathegory:hover {
+    text-decoration: underline;
   }
   .gradient-background #menu-box .menu-small-box .login-sign-space {
     width: 40%;
