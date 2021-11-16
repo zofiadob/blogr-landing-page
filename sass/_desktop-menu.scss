@@ -1,4 +1,63 @@
+@use './variables' as vars;
+
 @mixin desktop-menu() {
-    
-    
+ 
+    .gradient-background{
+    #menu-box{
+        display: flex;
+        width: 70%;
+        text-align: right;
+        position: absolute;
+        top: 0%;
+        right: 10%;
+
+        .menu-small-box{
+            display: inline;
+            box-shadow: none;
+            background-color: transparent;
+            color: map-get($map: vars.$Neutral-colors, $key: "text" );
+            width: 100%;
+            display: flex;
+            padding-top: 25px;
+
+
+            .separator-line{
+                display: none;
+            }
+
+            .menu-cathegory{
+                width: 130px;
+            }
+
+            .login-sign-space{
+                width: 40%;
+                display: flex;
+
+                .login{
+                    width: 40%;
+                }
+
+                .button-sign-up{
+                    width: 40%;
+                    max-height: 44px;
+                    margin: 20px;
+                    padding: 0;
+                    background-image: none;
+                    background-color: map-get($map: vars.$Neutral-colors, $key: "text" );
+                    color: map-get($map: vars.$Primary-colors, $key: "CTA-text" );
+                    text-align: auto;
+                }
+            }
+        }
+    }
+
+    .box-1{
+        .main-header{
+            .logo{
+                width: 30;
+            }
+        }
+    }
+    }
+
 }
