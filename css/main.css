@@ -293,6 +293,7 @@ body {
     background-image: linear-gradient(to right, #ff8f70, #ff3d54);
   }
   .gradient-background .box-1 {
+    background-image: url("../images/bg-pattern-intro.svg");
     background-size: 210%;
     background-position: 23% 52%;
   }
