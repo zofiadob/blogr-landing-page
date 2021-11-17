@@ -6,6 +6,7 @@
         background-image: linear-gradient(to right, map-get($map: vars.$Gradient, $key: "gradient-light-red"), map-get($map: vars.$Gradient, $key: "gradient-red"));
 
         .box-1{
+            background-image: url("../images/bg-pattern-intro.svg");
             background-size: 210%;
             background-position: 23% 52%;
 
