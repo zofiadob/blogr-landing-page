@@ -93,7 +93,7 @@ body {
   cursor: pointer;
 }
 .gradient-background .box-1 {
-  background-image: url(/images/bg-pattern-intro.svg);
+  background-image: url("../images/bg-pattern-intro.svg");
   background-size: 350%;
   background-repeat: no-repeat;
   background-position: 37% 34%;
